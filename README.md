@@ -1,3 +1,3 @@
 # MANAS
 
-live at: https://zubinsharma17.github.io/MANAS/
+live at: https://github.com/VanshKrish03/MANAS/
