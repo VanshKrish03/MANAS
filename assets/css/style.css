@@ -1180,9 +1180,35 @@ testimonials
 }
 
 #testimonials .item .member-thumb {
+  height: 300px; 
+  overflow: hidden;
   position: relative;
 }
-
+.author-item .member-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+.hover-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+}
+.text-info {
+  min-height: 80px; 
+  margin-bottom: 10px;
+}
+.author-item h4,
+.author-item span {
+  text-align: center;
+  display: block;
+  margin-top: 15px;
+}
 #testimonials .item .hover-effect {
   cursor: pointer;
   position: absolute;
